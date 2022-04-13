@@ -1,0 +1,244 @@
+.details__product {
+    width: 100%;
+    height: 530px;
+    /* background-color: #ccc; */
+    margin-top: 60px;   
+}
+/* IMG and ACtion */
+.details_imgAndAction {
+    width: 480px;
+    height: 100%;
+    float: left;
+}
+
+.details_img {
+    height: 450px;
+    width: 450px;
+    padding: 15px 15px;
+    box-sizing: unset;
+}
+
+.details_img > img {
+    width: 450px;
+    height: 450px;
+}
+
+.details_actionsWithShare {
+    display: flex;
+    width: 450px;
+    height: 25px;
+    /* background-color: #000; */
+    margin: 0 15px;
+}
+
+.shareTo {
+    font-size: 20px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+.Action {
+    font-size: 20px;
+    width: 50%;
+    height: 100%;
+    color: red;
+    text-align: center;
+
+}
+
+.action--icon {
+    cursor: pointer;
+}
+
+.details_infor {
+    height: 530px;
+    width: 720px;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px 35px 0 20px;
+}
+
+.details--name {
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+
+.details--price {
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    margin-top: 25px;
+}
+
+.old_price {
+    font-size: 1.6rem;
+    text-decoration: line-through;
+    color: var(--text-color);
+    margin-right: 10px;
+
+}
+
+.new_price {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: red;
+}
+
+.percent {
+    width: 60px;
+    height: 20px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+.details_transport {
+    margin-top: 25px;
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.icon_truck {
+    margin-left: 5px;
+}
+
+.selection--transport {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.details_amount {
+    margin-top: 15px;
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.details_amout--selection {
+    width: 160px;
+    height:50px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 2rem;
+    margin-left: 15px;
+}
+
+.decrease_amout {
+    width: 40px;
+    height: 100%;
+    border-right: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.amout_current {
+    width: 80px;
+    height: 100%;
+}
+
+.more_amout {
+    width: 40px;
+    height: 100%;
+    border-left: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.more_amout:hover,.decrease_amout:hover {
+    color: var(--primary-color);
+}
+
+.details_btn--decision {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    line-height: 45px;
+    text-align: center;
+}
+
+.details_btn--decision > a {
+    text-decoration: none;
+}
+
+.btn--buy {
+    width: 110px;
+    height:50px;
+    background-color:#c9374a;
+    border-radius: 2px;
+    color: var(--white-color);
+}
+
+.btn--buy:hover {
+    background-color:#c24f5f;
+}
+
+.btn--add-to-cart {
+    width: 210px;
+    height: 50px;
+    background-color: #fbebed;
+    border-radius: 2px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn--add-to-cart:hover {
+    background-color: #cac4c5;
+}
+
+.btn--add-to-cart, .btn--buy {
+    margin-left: 15px;
+}
+
+
+.policy {
+    margin-top: 15px;
+    width: 665px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    padding: 8px;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+
+.policy--items {
+    font-size: 1.4rem;
+    color: rgb(175, 16, 16);
+}
+
+
+.footer {
+    border-top: 2px solid var(--primary-color);
+    margin-top: 15px;
+}

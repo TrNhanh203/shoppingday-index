@@ -1,0 +1,226 @@
+*{
+    box-sizing: inherit;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif; 
+    box-sizing: border-box;
+
+}
+
+/* Header */
+.container {
+    background-color: var(--white-color);
+}
+
+
+.header {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    background-color: var(--white-color);
+    align-items: center;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__title-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    width: 160px;
+    height: 100px;
+}
+
+.header__title {
+    font-size: 1.6rem;
+    color: #000;
+    font-weight: 900;    
+}
+
+.header__suport {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    outline: none;
+}
+
+/* content signup */
+.content__signup {
+    height: 600px;
+    background-color: var(--primary-color);
+    position: relative;
+}
+
+.content__signup--logo-introduce {
+    position: absolute;
+    top: 50px;
+    left: 240px;
+}
+
+.content__signup--logo {
+    width: 340px;
+    height: 340px;
+}
+
+.content__signup--introduce {
+    font-size: 3rem;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.from_input {
+    width: 400px;
+    height: 480px;
+    background-color: var(--white-color);
+    position: absolute;
+    top: 80px;
+    left: 880px;
+    border-radius: 3px;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.input__label-signup {
+    font-size: 2rem;
+    padding: 24px 0;
+}
+
+.input_phone-number {
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+
+.import_phone-number {
+    height: 100%;
+    width: 90%;
+    border-style: none;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin: 0 18px;
+    outline: none;
+}
+
+.confrim__btn {
+    width: 100%;
+    height: 40px;
+    background-color: #f3836c;
+    cursor: no-drop;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    margin: 30px 0;
+    outline: none;
+}
+
+.forgetpass__loginwith-sms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgetpass__loginwith-sms > a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    
+}
+
+.from_input--line {
+    height: 28px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.line {
+    height: 1px;
+    width: 135px;
+    background-color: #ccc;
+}
+
+.content--line {
+    font-size: 1.3rem;
+    color: var(--text-color);
+}
+
+
+.option_login {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select-btn {
+    height: 100%;
+    width: 100px;
+    background-color: var(--white-color);
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.option_login--icon {
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin: 5px;
+}
+
+.option_login--name {
+
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 8px 0px;
+    width: 0px;
+}
+
+.from_input--terms-and-policies {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.from_input--terms-and-policies_confrim {
+    height: 40px;
+    line-height: 15px;
+    padding: 20px 48px;
+}
+
+.from_input--terms-and-policies_confrim > a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.has_account {
+    height: 20px;
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 40px 0px 20px 0px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.has_account-login {
+    text-decoration: none;
+    color: var(--primary-color);
+}
